@@ -36,7 +36,21 @@
     "commands": [
       {
         "command": "wolverine.directedHeal",
-        "title": "Directed Heal",
+        "title": "Wolverine Directed Heal",
+        "key": "ctrl+k ctrl+h",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "wolverine.review",
+        "title": "Wolverine Review",
+        "key": "ctrl+k ctrl+h",
+        "when": "editorTextFocus"
+
+      },
+      {
+        "command": "wolverine.directedReviewResponseHeal",
+        "args": "number",
+        "title": "Wolverine Review Response",
         "key": "ctrl+k ctrl+h",
         "when": "editorTextFocus"
       },
